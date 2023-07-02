@@ -14,7 +14,7 @@ export function Content() {
   const [citacao, setCitacao] = useState('')
   const [imagem, setImagem] = useState('')
   const [success, setSuccess] = useState(false)
-  const baseURL = 'https://backend-d1gw.onrender.com/mulheres' //meu link no render
+  const baseURL = 'https://backend-d1gw.onrender.com/mulheres' //meu link no render hoje
 
   useEffect(() => {
     async function getData() {
