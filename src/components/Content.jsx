@@ -5,7 +5,7 @@ import { Footer } from './Footer.jsx'
 
 import Axios from 'axios'
 
-import styles from '../styles/content.module.css'
+import styles from '../styles/content.module.css' 
 
 export function Content() {
   const [repositories, setRepositories] = useState([])
@@ -14,7 +14,7 @@ export function Content() {
   const [citacao, setCitacao] = useState('')
   const [imagem, setImagem] = useState('')
   const [success, setSuccess] = useState(false)
-  const baseURL = 'https://backend-d1gw.onrender.com/mulheres'
+  const baseURL = 'https://backend-d1gw.onrender.com/mulheres' //meu link no render
 
   useEffect(() => {
     async function getData() {
